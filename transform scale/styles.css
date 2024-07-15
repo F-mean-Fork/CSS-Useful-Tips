@@ -1,0 +1,33 @@
+body{
+  background-color: darkolivegreen;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h3{
+  margin: 0 0 20px
+}
+
+.card{
+  background-color:aliceblue;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+.flip{
+  transform: scaleX(-1);
+  transition: transform 1s;
+}
+
+.flip:hover{
+  transform: scaleX(1);
+}
+
+
+

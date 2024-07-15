@@ -1,0 +1,28 @@
+body{
+  background-color: darkolivegreen;
+}
+
+.gallery{
+  display: flex;
+  gap: 30px;
+  width: 500px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+}
+
+.card{
+    background-color:aliceblue;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing:border-box;
+    min-width: 500px;
+    scroll-snap-align: center;
+
+}
+
+h3{
+    margin: 0 0 20px
+}
+
